@@ -2,15 +2,23 @@ import { AppBar, Box, Button, Drawer, Link, Toolbar, Typography } from '@mui/mat
 import React, { useState } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import { navItems } from './../assets/data';
+
 const Navbar = () => {
     const [mobileNav, setMobileNav] = useState(false);
 
     const toggleMobileMenu = ()=>{
         setMobileNav(!mobileNav);
     }
+
   return (
-    <AppBar>
-        <Toolbar sx={{
+    <AppBar
+    elevation={0}
+    sx={{
+        backgroundColor: "transparent"
+    }}
+    >
+        <Toolbar 
+        sx={{
             display: "flex",
             justifyContent: "space-between",
             alignContent: "flex-start",
