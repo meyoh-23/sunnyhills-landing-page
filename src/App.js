@@ -1,11 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import { CssBaseline } from "@mui/material";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      sunny hill landing page
-    </div>
+    <>
+    <CssBaseline/>
+      <Navbar/>
+    </>
   );
 }
 
