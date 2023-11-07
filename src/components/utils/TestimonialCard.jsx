@@ -1,7 +1,6 @@
 import { Avatar, Box, Typography } from '@mui/material';
 import React from 'react';
-import emily from "./../../assets/images/image-emily.jpg"
-function TestimonialCard() {
+function TestimonialCard(props) {
   return (
     <Box 
     sx={{
@@ -16,24 +15,24 @@ function TestimonialCard() {
         <Box sx={{
             mx: "auto"
         }}>
-            <Avatar src={emily}/>
+            <Avatar src={props.image}/>
         </Box>
         <Typography 
         variant='p'
         sx={{
             textAlign: "center",
         }}>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam laudantium amet rem illum tempore, ipsum molestiae accusamus aliquid sed quas, at vel a nemo.
+            { props.comment }
         </Typography>
         <Typography sx={{
             textAlign: "center"
         }}>
-            Emily R.
+            { props.name }
         </Typography>
         <Typography sx={{
             textAlign: "center"
         }}>
-            Marketing director
+            { props.role }
         </Typography>
     </Box>
   )
