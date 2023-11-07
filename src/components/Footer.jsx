@@ -10,9 +10,15 @@ function Footer() {
         flexDirection: "column",
         alignItems: "center",
         gap: 4,
+        backgroundColor: "hsl(168, 34%, 41%)"
     }}>
-        <Typography sx={{
-            textAlign: "center"
+        <Typography 
+        variant='h3'
+        sx={{
+            textAlign: "center",
+            fontFamily: "'Fraunces', serif",
+            color: "hsl(212, 27%, 19%)",
+            fontWeight: "900"
         }}>
             sunnyside
         </Typography>
@@ -29,7 +35,10 @@ function Footer() {
                     underline='none'
                     href={item.link}
                     sx={{
-                        textTransform: "capitalize"
+                        textTransform: "capitalize",
+                        fontFamily: "'Barlow', sans-serif",
+                        fontSize: "1.125rem",
+                        color: "hsl(198, 62%, 26%)"
                     }}
                     >
                         {item.title}
