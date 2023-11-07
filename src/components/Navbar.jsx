@@ -24,7 +24,13 @@ const Navbar = () => {
             alignContent: "flex-start",
             py: 2.25,
         }}>
-            <Typography>
+            <Typography
+            variant='h4'
+            sx={{
+                fontFamily: "'Fraunces', serif",
+                fontWeight: "900"
+            }}
+            >
                     sunnyside
                 </Typography>
             <Box sx={{
@@ -43,7 +49,10 @@ const Navbar = () => {
                         underline='none'
                         href={link}
                         sx={{
-                            color: "black",
+                            color: " hsl(0, 0%, 100%)",
+                            fontFamily: "Barlow', sans-serif",
+                            fontWeight: "600",
+                            fontSize: "1.125rem",
                         }}
                         >
                         {title}
@@ -102,8 +111,19 @@ const Navbar = () => {
                             key={id}
                             href={link}
                             sx={{
-                                color: "black",
+                                color: "hsl(232, 10%, 55%)",
                                 textAlign: "center",
+                                fontFamily: "'Barlow', sans-serif",
+                                fontWeight: "700",
+                                fontSize: "1.125rem",
+                                "&:hover" : {
+                                    fontFamily: "'Fraunces', serif",
+                                    py: 1.5, 
+                                    px: 3.5,
+                                    border: "1px solid hsl(51, 100%, 49%)",
+                                    borderRadius: 8,
+                                    backgroundColor: "hsl(51, 100%, 49%)",
+                                }
                             }}
                             >
                                 {title}

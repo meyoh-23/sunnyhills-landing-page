@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 /guide-template.html
+/style-guide.md
 
 # testing
 /coverage

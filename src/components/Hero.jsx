@@ -33,9 +33,13 @@ function Hero() {
         }}
         >
             <Typography
+            variant='h2'
             sx={{
                 textAlign: "center",
-                textTransform: "uppercase"
+                textTransform: "uppercase",
+                fontFamily: "'Fraunces', serif",
+                fontWeight: "700",
+                color: "hsl(0, 0%, 100%)"
             }}
             >
                 We are creatives
