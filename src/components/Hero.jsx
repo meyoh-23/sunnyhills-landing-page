@@ -49,7 +49,12 @@ function Hero() {
                 alignItems: "center",
                 mx: "auto",
                 position: "absolute",
-                transform: "translateY(200%)"
+                transform: {
+                    xs: "translateY(45vh)",
+                    sm: "translateY(40vh)",
+                    md: "translateY(25vh)",
+                    lg: "translateY(35vh)"
+                }
             }}
             >
                 <img src={arrorIcon} alt="arrow" />
