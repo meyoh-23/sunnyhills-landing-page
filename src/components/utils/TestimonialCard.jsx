@@ -21,16 +21,27 @@ function TestimonialCard(props) {
         variant='p'
         sx={{
             textAlign: "center",
+            fontFamily: "'Barlow', sans-serif",
+            fontWeight: "600",
+            color: "hsl(232, 10%, 55%)",
+            fontSize: "1.125rem"
         }}>
             { props.comment }
         </Typography>
-        <Typography sx={{
-            textAlign: "center"
+        <Typography
+        variant='h5'
+        sx={{
+            textAlign: "center",
+            fontFamily: "'Fraunces', serif",
+            fontWeight: "900",
         }}>
             { props.name }
         </Typography>
         <Typography sx={{
-            textAlign: "center"
+            textAlign: "center",
+            color: "hsl(210, 4%, 67%)",
+            fontFamily: "'Barlow', sans-serif",
+            fontWeight: "600"
         }}>
             { props.role }
         </Typography>

@@ -13,9 +13,13 @@ function Testimonial() {
       gap: 5,
     }}>
       <Typography
+      variant='h4'
       sx={{
         textAlign: "center",
-        textTransform: "capitalize",
+        textTransform: "uppercase",
+        fontFamily: "'Fraunces', serif",
+        color: "hsl(210, 4%, 67%)",
+        fontWeight: "900",
       }}
       >
         Client testimonials
