@@ -7,6 +7,16 @@ import instagramIcon from './images/icon-instagram.svg';
 import twitterIcon from './images/icon-twitter.svg';
 import pinterestIcon from './images/icon-pinterest.svg';
 
+import deskMilk from './images/desktop/image-gallery-milkbottles.jpg';
+import deskCone from './images/desktop/image-gallery-cone.jpg';
+import deskCubes from './images/desktop/image-gallery-sugarcubes.jpg';
+import deskOrange from './images/desktop/image-gallery-orange.jpg';
+
+import mobileMilk from './images/mobile/image-gallery-milkbottles.jpg';
+import mobileCone from './images/mobile/image-gallery-cone.jpg';
+import mobileCubes from './images/mobile/image-gallery-sugar-cubes.jpg';
+import mobileOrange from './images/mobile/image-gallery-orange.jpg';
+
 export const testimonials = [
     {
         id: 1,
@@ -92,5 +102,40 @@ export const socialLinks = [
         id: 14,
         icon: pinterestIcon,
         link: "#pintrest.com/sunnyside"
+    },
+]
+
+export const products = [
+    {
+        id: 1,
+        name: "milk bottles",
+        image: {
+            desktop: deskMilk,
+            mobile: mobileMilk
+        }
+    },
+    {
+        id: 2,
+        name: "orange",
+        image: {
+            desktop: deskOrange,
+            mobile: mobileOrange
+        }
+    },
+    {
+        id: 3,
+        name: "cone",
+        image: {
+            desktop: deskCone,
+            mobile: mobileCone
+        }
+    },
+    {
+        id: 4,
+        name: "sugar cubes",
+        image: {
+            desktop: deskCubes,
+            mobile: mobileCubes
+        }
     },
 ]

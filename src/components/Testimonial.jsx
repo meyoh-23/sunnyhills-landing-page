@@ -27,7 +27,7 @@ function Testimonial() {
           md: "row",
         },
         alignItems: "center",
-        gap: 2.25,
+        gap: 4,
       }}>
         {
           testimonials.map((item) => {
