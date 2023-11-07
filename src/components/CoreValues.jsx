@@ -209,7 +209,7 @@ function CoreValues() {
                   maxWidth: "300px",
                 }}
             >
-              Transform your brand
+              Stand out to the right audience 
             </Typography>
             <Typography variant='p'
             sx={{
@@ -220,7 +220,7 @@ function CoreValues() {
                 color: "hsl(210, 4%, 67%)"
               }}
             >
-              We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.
+              Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
             </Typography>
             <Button
                 variant='text'
@@ -399,7 +399,7 @@ function CoreValues() {
               gap: 3,
               }}
               >
-              Graphic design
+              Photography
               </Typography>
               <Typography 
               sx={{
@@ -410,7 +410,7 @@ function CoreValues() {
                 color: "hsl(212, 27%, 19%)"
               }}
               >
-                Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+                Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
               </Typography>
             </Box>
           </Box>
