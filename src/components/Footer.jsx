@@ -4,7 +4,9 @@ import { footerLinks, socialLinks } from '../assets/data';
 
 function Footer() {
   return (
-    <Box sx={{
+    <Box
+    variant='footer'
+    sx={{
         p: 4,
         display: "flex",
         flexDirection: "column",
